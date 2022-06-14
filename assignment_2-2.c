@@ -79,8 +79,6 @@ char gradeBacklog(int a)
         return 'C';
     else if (a >= 60)
         return 'D';
-    else if (a >= 50)
-        return 'P';
     else if (a >= 40)
         return 'P';
     else
