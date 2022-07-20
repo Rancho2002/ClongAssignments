@@ -62,9 +62,9 @@ int main()
 		printf("Square root of Complex Number-1 : SQRT(C1) = (+/-) [(%f) + (%f)i]\n", sqrt((c1.real + sqrt(pow(c1.real, 2) + pow(c1.img, 2))) / 2), sqrt((-c1.real + sqrt(pow(c1.real, 2) + pow(c1.img, 2))) / 2));
 
 	if (c2.img < 0)
-		printf("Square root of Complex Number-2 : SQRT(C1) = (+/-) [(%f) + -(%f)i]\n", sqrt((c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2), sqrt((-c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2));
+		printf("Square root of Complex Number-2 : SQRT(C2) = (+/-) [(%f) + -(%f)i]\n", sqrt((c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2), sqrt((-c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2));
 	else
-		printf("Square root of Complex Number-2 : SQRT(C1) = (+/-) [(%f) + (%f)i]\n", sqrt((c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2), sqrt((-c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2));
+		printf("Square root of Complex Number-2 : SQRT(C2) = (+/-) [(%f) + (%f)i]\n", sqrt((c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2), sqrt((-c2.real + sqrt(pow(c2.real, 2) + pow(c2.img, 2))) / 2));
 
 	printf("Reciprocal of Complex Number-1 : 1/C1 = (%f) + (%f)i\n", c1.real / (pow(c1.real, 2) + pow(c1.img, 2)), -c1.img / (pow(c1.real, 2) + pow(c1.img, 2)));
 	printf("Reciprocal of Complex Number-2 : 1/C2 = (%f) + (%f)i\n", c2.real / (pow(c2.real, 2) + pow(c2.img, 2)), -c2.img / (pow(c2.real, 2) + pow(c2.img, 2)));
